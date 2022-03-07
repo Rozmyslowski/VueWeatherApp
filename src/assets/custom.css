@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow: hidden;
+}
+
+#main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.card-nav{
+    width: 30%;
+    height: 100vh;
+    background-color: #333;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+ 
+}
+
+.card-nav input{
+    width: 70%;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-nav .card-top{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+  .title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+ 
+  
+  .city-name {
+    position: relative;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .city-name p {
+    font-weight: 400;
+    font-size: 16pt;
+  }
+  
+  .city-name span {
+    position: relative;
+    top: -50px;
+    font-size: 40pt;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .temp span {
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+  }
+  .card-mid {
+    line-height: 0.5;
+  }
+  .condition {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: capitalize;
+  }
+  
+
+  
+  .card-bottom span {
+    font-size: 12px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: inherit;
+  }
+
+  .nav{
+      background-color: red;
+      width: 100%;
+      height: 200px;
+  }
+
+  .card-box-one{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    background-color: #333;
+    font-size: 4rem;
+    padding: 3rem;
+    width: 500px;
+  }
+  .card-box-two{
+      position: absolute;
+      top: 70%;
+      left: 40%;
+      background-color: #333;
+      font-size: 4rem;
+      padding: 3rem;
+      width: 500px;
+      
+  }
+
+  .card-box-three{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: hsla(230, 81%, 41%, 0);
+    padding: 4rem;
+    font-size: 2rem;
+    
+  }
+
+
+  .card-box-city{
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: #0c1a6300;     
+      width: 200px;
+      height: 200px;
+  }
+
+  .card-box-five{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: #333;
+    font-size: 4rem;
+    padding: 3rem;
+    width: 500px;
+  }
+  .card-box-nine{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    background-color: #333;
+    font-size: 4rem;
+    padding: 3rem;
+    width: 500px;
+  }
+
+
+  .future-forecast{
+    background-color: #fff;
+    padding: 6rem;
+    position: fixed;  
+    top: 10%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .future-forecast .weather-forecast-item{
+        display: flex;
+        border: 1px solid black;
+    }
